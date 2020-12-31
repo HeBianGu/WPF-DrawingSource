@@ -1,0 +1,9 @@
+﻿<Application x:Class="HeBianGu.DrawingSource.Demo.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:HeBianGu.DrawingSource.Demo"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary Source="/HeBianGu.Common.DrawingSource;component/Themes/Generic.xaml"/>
+    </Application.Resources>
+</Application>

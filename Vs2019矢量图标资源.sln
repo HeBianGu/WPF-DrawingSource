@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.DrawingSource.Demo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Common.DrawingSource", "HeBianGu.Common.DrawingSource\HeBianGu.Common.DrawingSource.csproj", "{8A07F6C2-33AF-4DCF-9674-57234532AEFD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{33FCE2E8-9923-42E5-8C85-1C73E3575199}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Common", "2 - Common", "{F55BFD5C-6494-4A5E-B1D3-18B1958977B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18E786B1-D217-47D1-817B-9FF92AB90243} = {33FCE2E8-9923-42E5-8C85-1C73E3575199}
+		{8A07F6C2-33AF-4DCF-9674-57234532AEFD} = {F55BFD5C-6494-4A5E-B1D3-18B1958977B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B304F4C-9D00-40AC-9274-E7DB15693F32}
